@@ -1,0 +1,149 @@
+.header {
+    color: black;
+    padding: 20px 40px;
+    background-image: url(images/box.jpg);
+    background-size: cover;
+}
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-inline-start: 0%;
+    list-style: none;
+}
+.header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header h1 {
+    display: inline;
+    margin-right: 10px;
+}
+footer li {
+    display: inline;
+    margin-right: 10px;
+}
+li:last-child {
+    margin-right: 10px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+    width: 75%;
+    word-break: Normal;
+    text-align: center;
+    margin: auto;
+}
+
+pre {
+    text-align: justify;
+    width: 75%;
+    word-break: break-all;
+}
+
+footer {
+    height: 150px;
+    text-align: center;
+}
+
+.avatar {
+    height: 300px;
+    text-align: center;
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background-image: url(images/footer.png);
+    background-repeat: round;
+    background-size: cover;
+}
+
+footer ul {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+footer ul:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer section {
+    height: 10px;
+}
+
+.avatar img {
+height: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: color 1s, border-color 1s;
+}
+
+.btn:hover {
+    color: blue;
+    border-color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 0%;
+}
+
+table, th, td {
+    border: black solid 1px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-white {
+    text-decoration: none; !important;
+    color: white; !important;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: color 1s, border-color 1s;
+}
+
+.btn-white:hover {
+    color: blue;
+    border-color: blue;
+}
+
+.cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
